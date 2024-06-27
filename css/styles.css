@@ -60,7 +60,7 @@ img {
 a {
     text-decoration: none;
     color:var(--primario);
-    padding: 1rem;
+    padding: 0.5rem;
 }
 a:hover {
     
@@ -192,6 +192,7 @@ a:hover {
     width: 100%;
     margin: 2%;
     background-color: var(--secundario);
+    
 }
 
 .titulo-del-main {
@@ -213,6 +214,15 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 2rem;    
+}
+.novedades-propiedades {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
 }
 
 .novedades {
